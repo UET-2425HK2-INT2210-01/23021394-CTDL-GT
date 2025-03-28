@@ -7,9 +7,9 @@ const int MAXN = 100005;
 
 // Danh sách kề để lưu cây
 vector<int> adj[MAXN];
- // Mảng lưu chiều cao của từng nút
+ // Mảng save chiều cao của từng nút
 int height[MAXN];
-// Biến kiểm tra cây nhị phân
+// Biến ktra cây nhị phân
  bool isBinary = true;
 
 // Tính chiều cao của cây
